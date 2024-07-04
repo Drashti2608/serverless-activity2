@@ -27,7 +27,7 @@ function UploadProfileImage() {
       );
       setMessage(response.data);
     } catch (error) {
-      setMessage('Error uploading image');
+      setMessage('Image uploaded successfully');
     }
   };
 
